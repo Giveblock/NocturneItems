@@ -19,7 +19,6 @@ public final class NocturneItems extends JavaPlugin {
 
     private void registerCommands() {
         this.getCommand("nocturnegive").setExecutor(new NocturneGive(this));
-
     }
 
 
